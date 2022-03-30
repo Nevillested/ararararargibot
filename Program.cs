@@ -27,6 +27,7 @@ namespace ararararargibot
                     System.IO.File.Create(@chats_id);
                 }
             }
+            Console.WriteLine(Directory.GetCurrentDirectory());
             client = new TelegramBotClient(token);
             client.StartReceiving();
             client.OnMessage += OnMessageHandler;
@@ -298,10 +299,11 @@ namespace ararararargibot
                     n = n.Remove(0, p + s.Length);
 
                     string[] sybols_array = { "\\_", "\\*", "\\[", "\\]", "\\(", "\\)", "\\~", "\\`", "\\>", "\\#", "\\+", "\\-", "\\=", "\\|", "\\{", "\\}", "\\.", "\\!" };
-                    for (int b = 0; b < sybols_array.Length; i++)
+                    for (int b = 0; b < sybols_array.Length; b++)
                     {
-                        n += n.Replace(sybols_array[b], "\\"+ sybols_array[b]);
+                        n = n.Replace(sybols_array[b], "\\\\" + sybols_array[b]);
                     }
+                    Console.WriteLine(n);
 
                     n += " || " + n + " || ";
                     await client.SendTextMessageAsync(msg.Chat.Id,
