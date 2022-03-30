@@ -16,18 +16,23 @@ namespace ararararargibot
         private static TelegramBotClient client;
         static void Main(string[] args)
         {
-
+            //запоминаем директорию чатов
             string directory_chats = Directory.GetCurrentDirectory() + "/chats";
+
+            //запоминаем директорию файла со всеми id чатов
             string chats_id = Directory.GetCurrentDirectory() + "/chats/id_chats.txt";
+
+            //если директории с чатами не существует-создаем ее
             if (!Directory.Exists(directory_chats))
             {
                 Directory.CreateDirectory(directory_chats);
+                //если не существует файла, в который запоминаются все id чатов-то создаем его
                 if (!File.Exists(chats_id))
                 {
                     System.IO.File.Create(@chats_id);
                 }
             }
-            Console.WriteLine(Directory.GetCurrentDirectory());
+
             client = new TelegramBotClient(token);
             client.StartReceiving();
             client.OnMessage += OnMessageHandler;
@@ -43,7 +48,6 @@ namespace ararararargibot
         {
             var msg = e.Message;
 
-
             //запоминает в файл все уникальные ид чатов с юзерами
             long msg_id = e.Message.Chat.Id;
             string number_id_chat = msg_id.ToString();
@@ -57,23 +61,24 @@ namespace ararararargibot
                     await writer.WriteLineAsync(number_id_chat);
                 }
             }
-            //сохраняет чаты
+
+            //сохраняет чаты:
+            //запоминаем директорию чатов
             string directory_chats = Directory.GetCurrentDirectory() + "/chats";
+            //запоминаем директорию теоретического файла чата
             string directory_file_chat = directory_chats + "/" + (string)number_id_chat + ".txt";
+            //если файла чата не существует-то создает его
             if (!File.Exists(directory_file_chat))
             {
                 var myFile = File.Create(directory_file_chat);
                 myFile.Close();
             }
-
-
-
-
+            //добавляем сообщение в файл чата (историю)
             using (StreamWriter sw = File.AppendText(directory_file_chat))
             {
                 sw.WriteLine("Username: " + msg.From.Username + ". DateTime: " + DateTime.Now + ". ID сообщения: " + msg.MessageId + ". Текст: " + msg.Text);
             }
-
+            //если сообщение не пустое, то действуем по вложенным тригерам
             if (msg.Text != null)
             {
                 Console.WriteLine($"Пришло сообщение с текстом: {msg.Text}");
@@ -271,52 +276,58 @@ namespace ararararargibot
                     }
                 }
 
-
-
             }
         }
 
         private static async void OnMessageEdit(object sender, MessageEventArgs e)
         {
-
-
             var msg = e.Message;
+            //запоминаем в стрингу id сообщения
             string string_message_id = msg.MessageId.ToString();
             long msg_id = e.Message.Chat.Id;
+            //запоминаем в стрингу id чата
             string number_id_chat = msg_id.ToString();
+            //запоминаем директорию с файлами чатов
             string directory_chats = Directory.GetCurrentDirectory() + "/chats";
+            //запоминаем директорию конкретно нужного файла чата
             string directory_file_chat = directory_chats + "/" + (string)number_id_chat + ".txt";
-
-            //string message_for_each = msg.Text.Substring(8);
+            //считываем из файла все строки построчно в массив строк
             string[] array_current_chat = File.ReadAllLines(directory_file_chat);
             for(int i = 0; i < array_current_chat.Length; i++)
             {
+                //по циклу ищет тот message_id того сообщения, которое было изменено
                 if (array_current_chat[i].Contains(string_message_id))
                 {
+                    //запоминаем в n всю найденную строку по нашему айдишнику сообщения
                     string n = array_current_chat[i];
                     string s = " Текст: ";
                     int p = n.IndexOf(s);
+                    //убираем из строки всё лишнее, оставляем только сообщение
                     n = n.Remove(0, p + s.Length);
 
+                    //делаем массив зарезервированных символов
                     string[] sybols_array = { "\\_", "\\*", "\\[", "\\]", "\\(", "\\)", "\\~", "\\`", "\\>", "\\#", "\\+", "\\-", "\\=", "\\|", "\\{", "\\}", "\\.", "\\!" };
+
+                    //прогоняем сообщение по массиву и если встречаем зарезервированный символ подставляем \\
                     for (int b = 0; b < sybols_array.Length; b++)
                     {
-                        n = n.Replace(sybols_array[b], "\\\\" + sybols_array[b]);
+                        if (n.Contains(sybols_array[b].Substring(1)))
+                        {
+                            Console.WriteLine(sybols_array[b].Substring(1));
+                            n = n.Replace(sybols_array[b].Substring(1), "\\"+ sybols_array[b].Substring(1));
+                        }
                     }
-                    Console.WriteLine(n);
 
-                    n += " || " + n + " || ";
+                    //через || добавляем к сообщению спойлер, который распарсится через MarkdownV2
+                    n = " || " + n + " || ";
                     await client.SendTextMessageAsync(msg.Chat.Id,
                                   "Ты что думаешь, я ничего не видел?\r\n" + n,
                                   parseMode: Telegram.Bot.Types.Enums.ParseMode.MarkdownV2,
                                   replyToMessageId: msg.MessageId
                                   );
                 }
+
             }
-
-
-
-
 
         }
 
