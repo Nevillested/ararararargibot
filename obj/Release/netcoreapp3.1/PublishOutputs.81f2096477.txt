@@ -1,0 +1,7 @@
+C:\d\mvs projects\BuildAraBot\ararararargibot.exe
+C:\d\mvs projects\BuildAraBot\ararararargibot.dll
+C:\d\mvs projects\BuildAraBot\ararararargibot.deps.json
+C:\d\mvs projects\BuildAraBot\ararararargibot.runtimeconfig.json
+C:\d\mvs projects\BuildAraBot\ararararargibot.pdb
+C:\d\mvs projects\BuildAraBot\Newtonsoft.Json.dll
+C:\d\mvs projects\BuildAraBot\Telegram.Bot.dll

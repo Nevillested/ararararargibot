@@ -1,0 +1,33 @@
+C:\Users\Weabo\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.exe
+C:\Users\Weabo\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.deps.json
+C:\Users\Weabo\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.runtimeconfig.json
+C:\Users\Weabo\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.runtimeconfig.dev.json
+C:\Users\Weabo\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.dll
+C:\Users\Weabo\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.pdb
+C:\Users\Weabo\source\repos\ararararargibot\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Weabo\source\repos\ararararargibot\bin\Release\netcoreapp3.1\Telegram.Bot.dll
+C:\Users\Weabo\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.csprojAssemblyReference.cache
+C:\Users\Weabo\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.AssemblyInfoInputs.cache
+C:\Users\Weabo\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.AssemblyInfo.cs
+C:\Users\Weabo\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.csproj.CoreCompileInputs.cache
+C:\Users\Weabo\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.csproj.CopyComplete
+C:\Users\Weabo\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.dll
+C:\Users\Weabo\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.pdb
+C:\Users\Weabo\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.genruntimeconfig.cache
+C:\d\mvs projects\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.exe
+C:\d\mvs projects\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.deps.json
+C:\d\mvs projects\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.runtimeconfig.json
+C:\d\mvs projects\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.runtimeconfig.dev.json
+C:\d\mvs projects\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.pdb
+C:\d\mvs projects\repos\ararararargibot\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Release\netcoreapp3.1\Telegram.Bot.dll
+C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.csproj.AssemblyReference.cache
+C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.AssemblyInfoInputs.cache
+C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.AssemblyInfo.cs
+C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.csproj.CoreCompileInputs.cache
+C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.csproj.CopyComplete
+C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.dll
+C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.pdb
+C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.genruntimeconfig.cache
+C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.GeneratedMSBuildEditorConfig.editorconfig

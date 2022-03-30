@@ -1,0 +1,7 @@
+C:\Users\Weabo\Desktop\bot\ararararargibot.exe
+C:\Users\Weabo\Desktop\bot\ararararargibot.dll
+C:\Users\Weabo\Desktop\bot\ararararargibot.deps.json
+C:\Users\Weabo\Desktop\bot\ararararargibot.runtimeconfig.json
+C:\Users\Weabo\Desktop\bot\ararararargibot.pdb
+C:\Users\Weabo\Desktop\bot\Newtonsoft.Json.dll
+C:\Users\Weabo\Desktop\bot\Telegram.Bot.dll
