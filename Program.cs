@@ -129,15 +129,15 @@ namespace ararararargibot
                 }
                 else if (msg.Text == "/anekdot" | msg.Text == "/anekdot@ArarararagiBot")
                 {
-                    //await client.SendTextMessageAsync(msg.Chat.Id, "Рандомная юмореска");
-                    //string path = @"C:\Users\Van\Downloads\ANEKDOT.txt";
-                    //string text = File.ReadAllText(path, Encoding.UTF8);
+                    await client.SendTextMessageAsync(msg.Chat.Id, "Рандомная юмореска");
+                    string path = Directory.GetCurrentDirectory() + "/ANEKDOT.txt";
+                    string text = File.ReadAllText(path, Encoding.UTF8);
 
-                    //string[] anekdots = text.Split("* * *");
-                    //Random rnd4 = new Random();
-                    //int value4 = rnd4.Next(0, anekdots.Length);
-                    //await client.SendTextMessageAsync(msg.Chat.Id, anekdots[value4]);
-                    await client.SendTextMessageAsync(msg.Chat.Id, "анекдоты пока не работают, сори");
+                    string[] anekdots = text.Split("* * *");
+                    Random rnd4 = new Random();
+                    int value4 = rnd4.Next(0, anekdots.Length);
+                    await client.SendTextMessageAsync(msg.Chat.Id, anekdots[value4]);
+                    //await client.SendTextMessageAsync(msg.Chat.Id, "анекдоты пока не работают, сори");
                 }
                 else if (msg.Text == "/genshin_talents" | msg.Text == "/genshin_talents@ArarararagiBot")
                 {
@@ -147,49 +147,49 @@ namespace ararararargibot
                     {
                         await client.SendTextMessageAsync(msg.Chat.Id,
                             "Понедельник.\r\n" +
-                            "\r\nМондштадт: учения/указания/философия о свободе.\r\nПерсонажи: Эмбер, Барбара, Сахароза, Кли, Диона, Тарталья, Элой.\r\n" +
-                            "\r\nЛи Юэ: учения/указания/философия о процветании.\r\nПерсонажи: Кэ Цин, Нин Гуан, Ци Ци, Сяо\r\n" +
-                            "\r\nИнадзума: учения/указания/философия о бренности.\r\nПерсонажи: Йоимия, Кокомия\r\n");
+                            "\r\nМондштадт: учения/указания/философия о свободе.\r\nПерсонажи: Барбара, Диона, Кли, Сахароза, Тарталья, Элой, Эмбер\r\n" +
+                            "\r\nЛи Юэ: учения/указания/философия о процветании.\r\nПерсонажи:Кэ Цин, Нин Гуан, Сяо, Ци Ци, Шэнь Хэ\r\n" +
+                            "\r\nИнадзума: учения/указания/философия о бренности.\r\nПерсонажи: Ёимия, Кокоми, Тома\r\n");
                     }
                     else if (date2 == "Tuesday")
                     {
                         await client.SendTextMessageAsync(msg.Chat.Id,
                             "Вторник.\r\n" +
-                             "\r\nМондштадт: учения/указания/философия о борьбе.\r\nПерсонажи: Беннет, Дилюк, Джинн, Мона, Ноэлль, Рейзор, Эола\r\n" +
-                            "\r\nЛи Юэ: учения/указания/философия о усердии.\r\nПерсонажи: Чун Юнь, Сян Лин, Гань Юй, Ху Тао, Кадзуха\r\n" +
-                            "\r\nИнадзума: учения/указания/философия о изяществе.\r\nПерсонажи: Аяка, Сара\r\n");
+                             "\r\nМондштадт: учения/указания/философия о борьбе.\r\nПерсонажи: Беннет, Джинн, Дилюк, Мона, Ноэлль, Рейзор, Эола\r\n" +
+                            "\r\nЛи Юэ: учения/указания/философия о усердии.\r\nПерсонажи: Гань Юй, Кадзуха, Сян Лин, Ху Тао, Чунь Юнь, Юнь Цзинь\r\n" +
+                            "\r\nИнадзума: учения/указания/философия о изяществе.\r\nПерсонажи: Аяка, Итто, Сара\r\n");
                     }
                     else if (date2 == "Wednesday")
                     {
                         await client.SendTextMessageAsync(msg.Chat.Id,
                             "Среда.\r\n" +
-                            "\r\nМондштадт: учения/указания/философия о поэзии.\r\nПерсонажи: Фишль, Кэйа, Лиза, Венти, Альбедо, Розария\r\n" +
-                            "\r\nЛи Юэ: учения/указания/философия о золоте.\r\nПерсонажи: Син Цю, Бэй Доу, Чжун Ли, Синь Янь, Янь Фей\r\n" +
-                            "\r\nИнадзума: учения/указания/философия о свете.\r\nПерсонажи: Саю, Сёгун Райдэн\r\n");
+                            "\r\nМондштадт: учения/указания/философия о поэзии.\r\nПерсонажи: Альбедо, Венти, Кейя, Лиза, Розария, Фишль\r\n" +
+                            "\r\nЛи Юэ: учения/указания/философия о золоте.\r\nПерсонажи: Бэй Доу, Син Цю, Синь Янь, Чжун Ли, Янь Фэй\r\n" +
+                            "\r\nИнадзума: учения/указания/философия о свете.\r\nПерсонажи: Горо, Райден, Саю, Яэ Мико\r\n");
                     }
                     else if (date2 == "Thursday")
                     {
                         await client.SendTextMessageAsync(msg.Chat.Id,
                             "Четверг.\r\n" +
-                            "\r\nМондштадт: учения/указания/философия о свободе.\r\nПерсонажи: Эмбер, Барбара, Сахароза, Кли, Диона, Тарталья, Элой.\r\n" +
-                            "\r\nЛи Юэ: учения/указания/философия о процветании.\r\nПерсонажи: Кэ Цин, Нин Гуан, Ци Ци, Сяо\r\n" +
-                            "\r\nИнадзума: учения/указания/философия о бренности.\r\nПерсонажи: Йоимия, Кокомия\r\n");
+                            "\r\nМондштадт: учения/указания/философия о свободе.\r\nПерсонажи: Барбара, Диона, Кли, Сахароза, Тарталья, Элой, Эмбер\r\n" +
+                            "\r\nЛи Юэ: учения/указания/философия о процветании.\r\nПерсонажи: Кэ Цин, Нин Гуан, Сяо, Ци Ци, Шэнь Хэ\r\n" +
+                            "\r\nИнадзума: учения/указания/философия о бренности.\r\nПерсонажи: Ёимия, Кокоми, Тома\r\n");
                     }
                     else if (date2 == "Friday")
                     {
                         await client.SendTextMessageAsync(msg.Chat.Id,
                             "Пятница.\r\n" +
-                            "\r\nМондштадт: учения/указания/философия о борьбе.\r\nПерсонажи: Беннет, Дилюк, Джинн, Мона, Ноэлль, Рейзор, Эола\r\n" +
-                            "\r\nЛи Юэ: учения/указания/философия о усердии.\r\nПерсонажи: Чун Юнь, Сян Лин, Гань Юй, Ху Тао, Кадзуха\r\n" +
-                            "\r\nИнадзума: учения/указания/философия о изяществе.\r\nПерсонажи: Аяка, Сара\r\n");
+                            "\r\nМондштадт: учения/указания/философия о борьбе.\r\nПерсонажи: Беннет, Джинн, Дилюк, Мона, Ноэлль, Рейзор, Эола\r\n" +
+                            "\r\nЛи Юэ: учения/указания/философия о усердии.\r\nПерсонажи: Гань Юй, Кадзуха, Сян Лин, Ху Тао, Чунь Юнь, Юнь Цзинь\r\n" +
+                            "\r\nИнадзума: учения/указания/философия о изяществе.\r\nПерсонажи: Аяка, Итто, Сара\r\n");
                     }
                     else if (date2 == "Saturday")
                     {
                         await client.SendTextMessageAsync(msg.Chat.Id,
                             "Суббота.\r\n" +
-                            "\r\nМондштадт: учения/указания/философия о поэзии.\r\nПерсонажи: Фишль, Кэйа, Лиза, Венти, Альбедо, Розария\r\n" +
-                            "\r\nЛи Юэ: учения/указания/философия о золоте.\r\nПерсонажи: Син Цю, Бэй Доу, Чжун Ли, Синь Янь, Янь Фей\r\n" +
-                            "\r\nИнадзума: учения/указания/философия о свете.\r\nПерсонажи: Саю, Сёгун Райдэн\r\n");
+                            "\r\nМондштадт: учения/указания/философия о поэзии.\r\nПерсонажи: Альбедо, Венти, Кейя, Лиза, Розария, Фишль\r\n" +
+                            "\r\nЛи Юэ: учения/указания/философия о золоте.\r\nПерсонажи: Бэй Доу, Син Цю, Синь Янь, Чжун Ли, Янь Фэй\r\n" +
+                            "\r\nИнадзума: учения/указания/философия о свете.\r\nПерсонажи: Горо, Райден, Саю, Яэ Мико\r\n");
                     }
                     else if (date2 == "Sunday")
                     {
@@ -236,7 +236,7 @@ namespace ararararargibot
                     int value = rnd.Next(1, sleep.Length);
                     await client.SendTextMessageAsync(msg.Chat.Id, sleep[value], replyToMessageId: msg.MessageId);
                 }
-                else if (msg.Text.Contains("maid"))
+                else if (msg.Text.Contains("/maid"))
                 {
                     string[] allfiles = Directory.GetFiles(Directory.GetCurrentDirectory() + "/maids");
                     Random rnd3 = new Random();
@@ -267,7 +267,7 @@ namespace ararararargibot
                 }
                 else if (msg.Text.Contains("/send_all"))
                 {
-                    string message_for_each = msg.Text.Substring(8);
+                    string message_for_each = msg.Text.Substring(9);
                     string[] each_id = File.ReadAllLines(chats_id);
                     foreach (string string_id in each_id)
                     {
