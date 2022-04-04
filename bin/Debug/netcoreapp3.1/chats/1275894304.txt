@@ -139,3 +139,16 @@ Username: g1ts0. DateTime: 31.03.2022 22:12:07. ID сообщения: 949. Те
 Username: g1ts0. DateTime: 31.03.2022 22:12:08. ID сообщения: 952. Текст: /pikcha
 Username: g1ts0. DateTime: 31.03.2022 22:14:45. ID сообщения: 955. Текст: /pikcha
 Username: g1ts0. DateTime: 01.04.2022 14:10:09. ID сообщения: 958. Текст: /stick
+Username: g1ts0. DateTime: 01.04.2022 18:53:24. ID сообщения: 961. Текст: /anekdot
+Username: g1ts0. DateTime: 01.04.2022 18:53:33. ID сообщения: 964. Текст: /diplom
+Username: g1ts0. DateTime: 01.04.2022 18:53:35. ID сообщения: 966. Текст: /anekdot
+Username: g1ts0. DateTime: 01.04.2022 18:53:46. ID сообщения: 969. Текст: /anekdot
+Username: g1ts0. DateTime: 01.04.2022 18:54:22. ID сообщения: 972. Текст: /anekdot
+Username: g1ts0. DateTime: 01.04.2022 21:18:45. ID сообщения: 975. Текст: /anekdot
+Username: g1ts0. DateTime: 02.04.2022 9:37:12. ID сообщения: 984. Текст: /anekdot
+Username: g1ts0. DateTime: 02.04.2022 19:54:02. ID сообщения: 987. Текст: /anekdot
+Username: g1ts0. DateTime: 02.04.2022 19:54:16. ID сообщения: 991. Текст: /anekdot
+Username: g1ts0. DateTime: 02.04.2022 19:54:19. ID сообщения: 994. Текст: /anekdot
+Username: g1ts0. DateTime: 02.04.2022 21:31:39. ID сообщения: 997. Текст: /anekdot
+Username: g1ts0. DateTime: 03.04.2022 20:11:41. ID сообщения: 1000. Текст: /anekdot
+Username: g1ts0. DateTime: 03.04.2022 20:11:45. ID сообщения: 1003. Текст: /pikcha

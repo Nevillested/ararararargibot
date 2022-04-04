@@ -18,3 +18,5 @@ Username: psychomorphoses. DateTime: 31.03.2022 11:19:58. ID сообщения:
 Username: psychomorphoses. DateTime: 31.03.2022 11:20:43. ID сообщения: 894. Текст: /maid
 Username: psychomorphoses. DateTime: 31.03.2022 11:20:45. ID сообщения: 896. Текст: /maid
 Username: psychomorphoses. DateTime: 31.03.2022 12:39:41. ID сообщения: 911. Текст: /anekdot
+Username: psychomorphoses. DateTime: 01.04.2022 21:54:54. ID сообщения: 978. Текст: /anekdot
+Username: psychomorphoses. DateTime: 01.04.2022 21:55:08. ID сообщения: 981. Текст: /anekdot
