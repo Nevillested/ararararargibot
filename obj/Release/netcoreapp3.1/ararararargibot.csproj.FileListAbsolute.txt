@@ -31,3 +31,20 @@ C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibo
 C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.pdb
 C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.genruntimeconfig.cache
 C:\d\mvs projects\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\o.sidnev\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.exe
+C:\Users\o.sidnev\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.deps.json
+C:\Users\o.sidnev\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.runtimeconfig.json
+C:\Users\o.sidnev\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.runtimeconfig.dev.json
+C:\Users\o.sidnev\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.dll
+C:\Users\o.sidnev\source\repos\ararararargibot\bin\Release\netcoreapp3.1\ararararargibot.pdb
+C:\Users\o.sidnev\source\repos\ararararargibot\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\o.sidnev\source\repos\ararararargibot\bin\Release\netcoreapp3.1\Telegram.Bot.dll
+C:\Users\o.sidnev\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.csproj.AssemblyReference.cache
+C:\Users\o.sidnev\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\o.sidnev\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.AssemblyInfoInputs.cache
+C:\Users\o.sidnev\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.AssemblyInfo.cs
+C:\Users\o.sidnev\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.csproj.CoreCompileInputs.cache
+C:\Users\o.sidnev\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.csproj.CopyComplete
+C:\Users\o.sidnev\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.dll
+C:\Users\o.sidnev\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.pdb
+C:\Users\o.sidnev\source\repos\ararararargibot\obj\Release\netcoreapp3.1\ararararargibot.genruntimeconfig.cache

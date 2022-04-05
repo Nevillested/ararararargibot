@@ -1,0 +1,7 @@
+C:\Users\o.sidnev\Desktop\bot\ararararargibot.exe
+C:\Users\o.sidnev\Desktop\bot\ararararargibot.dll
+C:\Users\o.sidnev\Desktop\bot\ararararargibot.deps.json
+C:\Users\o.sidnev\Desktop\bot\ararararargibot.runtimeconfig.json
+C:\Users\o.sidnev\Desktop\bot\ararararargibot.pdb
+C:\Users\o.sidnev\Desktop\bot\Newtonsoft.Json.dll
+C:\Users\o.sidnev\Desktop\bot\Telegram.Bot.dll
