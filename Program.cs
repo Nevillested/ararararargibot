@@ -279,32 +279,38 @@ namespace ararararargibot
                 }
                 else if (msg.Text.Contains("/weather"))
                 {
-                    //string city = Console.ReadLine();
-                    string url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Moscow?unitGroup=metric&key=ZZNADZU8FRBMC8VDJUD7GST9F&contentType=json";
 
-                    var client_sec = new HttpClient();
-                    var request = new HttpRequestMessage(HttpMethod.Get, url);
+                    await client.SendTextMessageAsync(msg.Chat.Id, "Ваш ответ",  replyMarkup: new ForceReplyMarkup { Selective = true });
 
-                    var response_sec = await client_sec.SendAsync(request);
-                    response_sec.EnsureSuccessStatusCode();
 
-                    var body = await response_sec.Content.ReadAsStringAsync();
-
-                    dynamic weather = JsonConvert.DeserializeObject<dynamic>(body);
-
-                    string weather_to_chat = "Learn english mthrfckr\r\n";
-                    foreach (var day in weather.days)
-                    {
-                        weather_to_chat += day.datetime + "\r\n";
-                        weather_to_chat += day.description + "\r\n";
-                        weather_to_chat += day.tempmax + "\r\n";
-                        weather_to_chat += day.tempmin + "\r\n";
-                    }
-                    await client.SendTextMessageAsync(msg.Chat.Id, weather_to_chat);
 
                 }
 
 
+            }
+
+            //триггер на погоду.
+            if (msg.ReplyToMessage != null && msg.ReplyToMessage.Text.Contains("Ваш ответ"))
+            {
+                string city = msg.Text;
+                string url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"+city+"?unitGroup=metric&key=ZZNADZU8FRBMC8VDJUD7GST9F&contentType=json";
+                var client_sec = new HttpClient();
+                var request = new HttpRequestMessage(HttpMethod.Get, url);
+                var response_sec = await client_sec.SendAsync(request);
+                response_sec.EnsureSuccessStatusCode();
+                var body = await response_sec.Content.ReadAsStringAsync();
+                dynamic weather = JsonConvert.DeserializeObject<dynamic>(body);
+
+
+
+                string weather_to_chat = city+". Learn english mthrfckr\r\n";
+                foreach (var day in weather.days)
+                {
+                    //weather_to_chat += day.datetime + ": Desccription: " + day.description + " Max t:" + day.tempmax + "°. Min t:" + day.tempmin + "°.\r\n";
+                    weather_to_chat += day.datetime + ": from " + day.tempmin + "° to " + day.tempmax + "°.\r\nDescription: " + day.description + "\r\n\r\n";
+                }
+
+                await client.SendTextMessageAsync(msg.Chat.Id, weather_to_chat);
             }
         }
 
