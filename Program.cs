@@ -7,6 +7,8 @@ using Telegram.Bot.Args;
 using Telegram.Bot.Types.ReplyMarkups;
 using Telegram.Bot.Types.InputFiles;
 using System.Linq;
+using Newtonsoft.Json;
+using System.Net.Http;
 
 namespace ararararargibot
 {
@@ -275,6 +277,33 @@ namespace ararararargibot
                         await client.SendTextMessageAsync(long_id, message_for_each); 
                     }
                 }
+                else if (msg.Text.Contains("/weather"))
+                {
+                    //string city = Console.ReadLine();
+                    string url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Moscow?unitGroup=metric&key=ZZNADZU8FRBMC8VDJUD7GST9F&contentType=json";
+
+                    var client_sec = new HttpClient();
+                    var request = new HttpRequestMessage(HttpMethod.Get, url);
+
+                    var response_sec = await client_sec.SendAsync(request);
+                    response_sec.EnsureSuccessStatusCode();
+
+                    var body = await response_sec.Content.ReadAsStringAsync();
+
+                    dynamic weather = JsonConvert.DeserializeObject<dynamic>(body);
+
+                    string weather_to_chat = "Learn english mthrfckr\r\n";
+                    foreach (var day in weather.days)
+                    {
+                        weather_to_chat += day.datetime + "\r\n";
+                        weather_to_chat += day.description + "\r\n";
+                        weather_to_chat += day.tempmax + "\r\n";
+                        weather_to_chat += day.tempmin + "\r\n";
+                    }
+                    await client.SendTextMessageAsync(msg.Chat.Id, weather_to_chat);
+
+                }
+
 
             }
         }
