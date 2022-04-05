@@ -280,7 +280,7 @@ namespace ararararargibot
                 else if (msg.Text.Contains("/weather"))
                 {
 
-                    await client.SendTextMessageAsync(msg.Chat.Id, "Ваш ответ",  replyMarkup: new ForceReplyMarkup { Selective = true });
+                    await client.SendTextMessageAsync(msg.Chat.Id, "Введи свой город транслитом. Например, Moscow.",  replyMarkup: new ForceReplyMarkup { Selective = true });
 
 
 
@@ -290,7 +290,7 @@ namespace ararararargibot
             }
 
             //триггер на погоду.
-            if (msg.ReplyToMessage != null && msg.ReplyToMessage.Text.Contains("Ваш ответ"))
+            if (msg.ReplyToMessage != null && msg.ReplyToMessage.Text.Contains("Введи свой город транслитом. Например, Moscow."))
             {
                 string city = msg.Text;
                 string url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"+city+"?unitGroup=metric&key=ZZNADZU8FRBMC8VDJUD7GST9F&contentType=json";
@@ -306,7 +306,6 @@ namespace ararararargibot
                 string weather_to_chat = city+". Learn english mthrfckr\r\n";
                 foreach (var day in weather.days)
                 {
-                    //weather_to_chat += day.datetime + ": Desccription: " + day.description + " Max t:" + day.tempmax + "°. Min t:" + day.tempmin + "°.\r\n";
                     weather_to_chat += day.datetime + ": from " + day.tempmin + "° to " + day.tempmax + "°.\r\nDescription: " + day.description + "\r\n\r\n";
                 }
 
