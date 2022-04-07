@@ -138,7 +138,6 @@ namespace ararararargibot
                     string[] anekdots = text.Split("* * *");
                     Random rnd4 = new Random();
                     int value4 = rnd4.Next(1, anekdots.Length-1);
-                    Console.WriteLine(anekdots.Length);
                     await client.SendTextMessageAsync(msg.Chat.Id, anekdots[value4]);
                     //await client.SendTextMessageAsync(msg.Chat.Id, "анекдоты пока не работают, сори");
                 }
