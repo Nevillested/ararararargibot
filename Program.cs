@@ -9,6 +9,8 @@ using Telegram.Bot.Types.InputFiles;
 using System.Linq;
 using Newtonsoft.Json;
 using System.Net.Http;
+using System.Threading;
+using Hangfire;
 
 namespace ararararargibot
 {
@@ -46,9 +48,42 @@ namespace ararararargibot
 
         public DayOfWeek DayOfWeek { get; }
 
+
         private static async void OnMessageHandler(object sender, MessageEventArgs e)
         {
             var msg = e.Message;
+
+            ////для счетчика времени
+            //int a = 0;
+            //while (true)
+            //{
+            //    DateTime now = DateTime.Now;
+
+            //    Console.WriteLine(now.Hour);
+            //    if (now.Hour == 18)
+            //    {
+            //        while (true)
+            //        {
+            //            Console.WriteLine(now.Minute);
+
+            //            if (now.Minute == 0 | now.Minute == 26)
+            //            {
+            //                Console.WriteLine(now.Second + " "+a);
+            //                if (now.Second == 0 && a==0)
+            //                {
+            //                    await client.SendTextMessageAsync(1275894304, "Смолу сделал?", replyMarkup: new ForceReplyMarkup { Selective = true });
+            //                    //await client.SendTextMessageAsync(377722814, "Смолу сделала?", replyMarkup: new ForceReplyMarkup { Selective = true });
+            //                    Thread.Sleep(1000);
+            //                }
+            //                else
+            //                {
+            //                    break;
+            //                }
+            //            }
+            //        }
+            //    }
+            //}
+
 
             //запоминает в файл все уникальные ид чатов с юзерами
             long msg_id = e.Message.Chat.Id;
@@ -282,10 +317,11 @@ namespace ararararargibot
 
                     await client.SendTextMessageAsync(msg.Chat.Id, "Введи свой город транслитом. Например, Moscow.",  replyMarkup: new ForceReplyMarkup { Selective = true });
 
-
-
                 }
-
+                else if (msg.Text.Contains("/delete_space_blyat"))
+                {
+                    await client.SendTextMessageAsync(msg.Chat.Id, "Введи то, где надо убрать все пробелы", replyMarkup: new ForceReplyMarkup { Selective = true });
+                }
 
             }
 
@@ -301,16 +337,35 @@ namespace ararararargibot
                 var body = await response_sec.Content.ReadAsStringAsync();
                 dynamic weather = JsonConvert.DeserializeObject<dynamic>(body);
 
-
-
                 string weather_to_chat = city+". Learn english mthrfckr\r\n";
                 foreach (var day in weather.days)
                 {
                     weather_to_chat += day.datetime + ": from " + day.tempmin + "° to " + day.tempmax + "°.\r\nDescription: " + day.description + "\r\n\r\n";
                 }
-
                 await client.SendTextMessageAsync(msg.Chat.Id, weather_to_chat);
             }
+            //триггер на удаление пробелов
+            if (msg.ReplyToMessage != null && msg.ReplyToMessage.Text.Contains("Введи то, где надо убрать все пробелы"))
+            {
+
+                string delete_space = msg.Text.Replace(" ", ""); ;
+
+                await client.SendTextMessageAsync(msg.Chat.Id, delete_space);
+            }
+            ////триггер на смолу
+            //if (msg.ReplyToMessage != null && msg.ReplyToMessage.Text.Contains("Смолу"))
+            //{
+            //    if(msg.Text.Contains("да") | msg.Text.Contains("ДА") | msg.Text.Contains("дА") | msg.Text.Contains("Да"))
+            //    {
+            //        a++;
+            //    }
+            //    else
+            //    {
+            //        a = 0;
+            //    }
+
+            //}
+
         }
 
         private static async void OnMessageEdit(object sender, MessageEventArgs e)

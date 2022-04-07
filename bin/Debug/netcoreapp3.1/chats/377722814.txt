@@ -22,3 +22,5 @@ Username: psychomorphoses. DateTime: 01.04.2022 21:54:54. ID сообщения:
 Username: psychomorphoses. DateTime: 01.04.2022 21:55:08. ID сообщения: 981. Текст: /anekdot
 Username: psychomorphoses. DateTime: 4/4/2022 11:09:19 PM. ID сообщения: 1012. Текст: /weather
 Username: psychomorphoses. DateTime: 07.04.2022 12:50:45. ID сообщения: 1287. Текст: /anekdot
+Username: psychomorphoses. DateTime: 07.04.2022 16:59:14. ID сообщения: 1307. Текст: О л е г  л о х
+Username: psychomorphoses. DateTime: 07.04.2022 16:59:45. ID сообщения: 1308. Текст: /delete_space_blyat о л е г л о х
