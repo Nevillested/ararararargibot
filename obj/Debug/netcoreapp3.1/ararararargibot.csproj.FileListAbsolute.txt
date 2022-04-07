@@ -62,3 +62,17 @@ C:\Users\o.sidnev\source\repos\ararararargibot\bin\Debug\netcoreapp3.1\pt\Hangfi
 C:\Users\o.sidnev\source\repos\ararararargibot\bin\Debug\netcoreapp3.1\tr-TR\Hangfire.Core.resources.dll
 C:\Users\o.sidnev\source\repos\ararararargibot\bin\Debug\netcoreapp3.1\zh-TW\Hangfire.Core.resources.dll
 C:\Users\o.sidnev\source\repos\ararararargibot\bin\Debug\netcoreapp3.1\zh\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\Hangfire.Core.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\ca\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\de\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\es\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\fa\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\fr\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\nb\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\nl\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\pt-BR\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\pt-PT\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\pt\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\tr-TR\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\zh-TW\Hangfire.Core.resources.dll
+C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\zh\Hangfire.Core.resources.dll

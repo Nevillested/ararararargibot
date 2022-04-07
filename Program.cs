@@ -39,8 +39,39 @@ namespace ararararargibot
 
             client = new TelegramBotClient(token);
             client.StartReceiving();
+
             client.OnMessage += OnMessageHandler;
             client.OnMessageEdited += OnMessageEdit;
+            ////для счетчика времени
+            //int a = 0;
+            //while (true)
+            //{
+
+
+            //    if (DateTime.Now.Hour == 21 | DateTime.Now.Hour == 16 | DateTime.Now.Hour == 17 | DateTime.Now.Hour == 18 | DateTime.Now.Hour == 20)
+            //    {
+
+            //        if (DateTime.Now.Minute == 0 | DateTime.Now.Minute == 34)
+            //        {
+            //            if (DateTime.Now.Second == 0)
+            //            {
+            //                if (a == 0)
+            //                {
+            //                    client.SendTextMessageAsync(1275894304, "Смолу сделал?", replyMarkup: new ForceReplyMarkup { Selective = true });
+            //                    //client.SendTextMessageAsync(377722814, "Смолу сделала?", replyMarkup: new ForceReplyMarkup { Selective = true });
+            //                    Thread.Sleep(1000);
+            //                }
+            //            }
+            //        }
+            //    }
+            //    if (DateTime.Now.Hour == 21 && DateTime.Now.Minute == 0 && DateTime.Now.Second == 0)
+            //    {
+            //        a = 0;
+            //    }
+            //}
+
+            //client.SendTextMessageAsync(chats_id, "123");
+
             Console.ReadLine();
             client.StopReceiving();
         }
@@ -52,38 +83,6 @@ namespace ararararargibot
         private static async void OnMessageHandler(object sender, MessageEventArgs e)
         {
             var msg = e.Message;
-
-            ////для счетчика времени
-            //int a = 0;
-            //while (true)
-            //{
-            //    DateTime now = DateTime.Now;
-
-            //    Console.WriteLine(now.Hour);
-            //    if (now.Hour == 18)
-            //    {
-            //        while (true)
-            //        {
-            //            Console.WriteLine(now.Minute);
-
-            //            if (now.Minute == 0 | now.Minute == 26)
-            //            {
-            //                Console.WriteLine(now.Second + " "+a);
-            //                if (now.Second == 0 && a==0)
-            //                {
-            //                    await client.SendTextMessageAsync(1275894304, "Смолу сделал?", replyMarkup: new ForceReplyMarkup { Selective = true });
-            //                    //await client.SendTextMessageAsync(377722814, "Смолу сделала?", replyMarkup: new ForceReplyMarkup { Selective = true });
-            //                    Thread.Sleep(1000);
-            //                }
-            //                else
-            //                {
-            //                    break;
-            //                }
-            //            }
-            //        }
-            //    }
-            //}
-
 
             //запоминает в файл все уникальные ид чатов с юзерами
             long msg_id = e.Message.Chat.Id;
@@ -355,14 +354,22 @@ namespace ararararargibot
             ////триггер на смолу
             //if (msg.ReplyToMessage != null && msg.ReplyToMessage.Text.Contains("Смолу"))
             //{
-            //    if(msg.Text.Contains("да") | msg.Text.Contains("ДА") | msg.Text.Contains("дА") | msg.Text.Contains("Да"))
+            //    unsafe
             //    {
-            //        a++;
+            //        if (msg.Text.Contains("да") | msg.Text.Contains("ДА") | msg.Text.Contains("дА") | msg.Text.Contains("Да"))
+            //        {
+            //            int* x; // определение указателя
+            //            int y = 10; // определяем переменную
+
+            //            x = &a; // указатель x теперь указывает на адрес переменной y
+            //            a++;
+            //        }
+            //        else
+            //        {
+            //            a = 0;
+            //        }
             //    }
-            //    else
-            //    {
-            //        a = 0;
-            //    }
+
 
             //}
 
