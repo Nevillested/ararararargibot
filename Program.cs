@@ -38,12 +38,8 @@ namespace ararararargibot
 
             client = new TelegramBotClient(token);
             client.StartReceiving();
-
             client.OnMessage += OnMessageHandler;
             client.OnMessageEdited += OnMessageEdit;
-
-            var me = client.GetMeAsync();
-            Console.Write(me);
             Console.ReadLine();
             client.StopReceiving();
         }
