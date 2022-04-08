@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "5T7umijfY83MN57m2MvP1SqV49/buPSOE3foI0glEoTBJEN/4v+3LBCmOhLzIZ3gFD+3ZeYe0aiefu868JmqQw==",
+  "dgSpecHash": "W/UbGDbh+VtXTQsOl4JHW08Yf/j+CMuSoKAReLYzQku8E1wP0NrLz2IXhkFstFHe0sozXK+v74B3MU0f7ws77g==",
   "success": true,
   "projectFilePath": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\o.sidnev\\.nuget\\packages\\hangfire.core\\1.7.28\\hangfire.core.1.7.28.nupkg.sha512",
     "C:\\Users\\o.sidnev\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\o.sidnev\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\o.sidnev\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",

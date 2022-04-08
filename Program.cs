@@ -10,7 +10,6 @@ using System.Linq;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Threading;
-using Hangfire;
 
 namespace ararararargibot
 {
@@ -42,36 +41,9 @@ namespace ararararargibot
 
             client.OnMessage += OnMessageHandler;
             client.OnMessageEdited += OnMessageEdit;
-            ////для счетчика времени
-            //int a = 0;
-            //while (true)
-            //{
 
-
-            //    if (DateTime.Now.Hour == 21 | DateTime.Now.Hour == 16 | DateTime.Now.Hour == 17 | DateTime.Now.Hour == 18 | DateTime.Now.Hour == 20)
-            //    {
-
-            //        if (DateTime.Now.Minute == 0 | DateTime.Now.Minute == 34)
-            //        {
-            //            if (DateTime.Now.Second == 0)
-            //            {
-            //                if (a == 0)
-            //                {
-            //                    client.SendTextMessageAsync(1275894304, "Смолу сделал?", replyMarkup: new ForceReplyMarkup { Selective = true });
-            //                    //client.SendTextMessageAsync(377722814, "Смолу сделала?", replyMarkup: new ForceReplyMarkup { Selective = true });
-            //                    Thread.Sleep(1000);
-            //                }
-            //            }
-            //        }
-            //    }
-            //    if (DateTime.Now.Hour == 21 && DateTime.Now.Minute == 0 && DateTime.Now.Second == 0)
-            //    {
-            //        a = 0;
-            //    }
-            //}
-
-            //client.SendTextMessageAsync(chats_id, "123");
-
+            var me = client.GetMeAsync();
+            Console.Write(me);
             Console.ReadLine();
             client.StopReceiving();
         }
@@ -351,27 +323,6 @@ namespace ararararargibot
 
                 await client.SendTextMessageAsync(msg.Chat.Id, delete_space);
             }
-            ////триггер на смолу
-            //if (msg.ReplyToMessage != null && msg.ReplyToMessage.Text.Contains("Смолу"))
-            //{
-            //    unsafe
-            //    {
-            //        if (msg.Text.Contains("да") | msg.Text.Contains("ДА") | msg.Text.Contains("дА") | msg.Text.Contains("Да"))
-            //        {
-            //            int* x; // определение указателя
-            //            int y = 10; // определяем переменную
-
-            //            x = &a; // указатель x теперь указывает на адрес переменной y
-            //            a++;
-            //        }
-            //        else
-            //        {
-            //            a = 0;
-            //        }
-            //    }
-
-
-            //}
 
         }
 

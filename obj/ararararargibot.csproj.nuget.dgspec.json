@@ -40,10 +40,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Hangfire.Core": {
-              "target": "Package",
-              "version": "[1.7.28, )"
-            },
             "Telegram.Bot": {
               "target": "Package",
               "version": "[16.0.2, )"
