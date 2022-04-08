@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\d\\mvs projects\\repos\\ararararargibot\\ararararargibot.csproj": {}
+    "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj": {}
   },
   "projects": {
-    "C:\\d\\mvs projects\\repos\\ararararargibot\\ararararargibot.csproj": {
+    "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\d\\mvs projects\\repos\\ararararargibot\\ararararargibot.csproj",
+        "projectUniqueName": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj",
         "projectName": "ararararargibot",
-        "projectPath": "C:\\d\\mvs projects\\repos\\ararararargibot\\ararararargibot.csproj",
-        "packagesPath": "C:\\Users\\Van\\.nuget\\packages\\",
-        "outputPath": "C:\\d\\mvs projects\\repos\\ararararargibot\\obj\\",
+        "projectPath": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj",
+        "packagesPath": "C:\\Users\\o.sidnev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Van\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\o.sidnev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,12 +59,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
