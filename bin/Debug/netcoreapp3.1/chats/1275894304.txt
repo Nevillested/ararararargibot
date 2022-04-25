@@ -931,3 +931,18 @@ Username: g1ts0. DateTime: 10.04.2022 0:23:11. ID сообщения: 1432. Те
 Username: g1ts0. DateTime: 10.04.2022 20:07:12. ID сообщения: 1434. Текст: Moscow
 Username: g1ts0. DateTime: 10.04.2022 23:08:13. ID сообщения: 1436. Текст: /delete_space_blyat
 Username: g1ts0. DateTime: 14.04.2022 10:18:22. ID сообщения: 1440. Текст: /pikcha
+Username: g1ts0. DateTime: 14.04.2022 12:48:13. ID сообщения: 1443. Текст: /pikcha
+Username: g1ts0. DateTime: 14.04.2022 15:25:56. ID сообщения: 1446. Текст: /pikcha
+Username: g1ts0. DateTime: 14.04.2022 15:25:59. ID сообщения: 1449. Текст: /pikcha
+Username: g1ts0. DateTime: 14.04.2022 15:26:01. ID сообщения: 1452. Текст: /pikcha
+Username: g1ts0. DateTime: 14.04.2022 15:26:02. ID сообщения: 1455. Текст: /pikcha
+Username: g1ts0. DateTime: 17.04.2022 20:16:59. ID сообщения: 1458. Текст: /diplom
+Username: g1ts0. DateTime: 17.04.2022 21:38:07. ID сообщения: 1460. Текст: /weather
+Username: g1ts0. DateTime: 17.04.2022 21:38:12. ID сообщения: 1462. Текст: Moscow
+Username: g1ts0. DateTime: 18.04.2022 16:17:58. ID сообщения: 1465. Текст: /start
+Username: g1ts0. DateTime: 18.04.2022 16:18:02. ID сообщения: 1466. Текст: /start
+Username: g1ts0. DateTime: 18.04.2022 16:18:10. ID сообщения: 1467. Текст: /stick
+Username: g1ts0. DateTime: 18.04.2022 16:18:52. ID сообщения: 1470. Текст: /send all /start не работает ну потому что
+Username: g1ts0. DateTime: 18.04.2022 16:19:01. ID сообщения: 1471. Текст: /send_all /start не работает ну потому что
+Username: g1ts0. DateTime: 19.04.2022 19:13:23. ID сообщения: 1496. Текст: /rand
+Username: g1ts0. DateTime: 19.04.2022 19:13:26. ID сообщения: 1498. Текст: /maid

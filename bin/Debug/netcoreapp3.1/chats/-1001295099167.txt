@@ -10,3 +10,31 @@ Username: Katerina_pipenina. DateTime: 3/30/2022 12:34:34 PM. Текст: нее
 Username: g1ts0. DateTime: 3/30/2022 10:32:12 PM. ID сообщения: 7324. Текст: 
 Username: g1ts0. DateTime: 31.03.2022 11:20:11. ID сообщения: 7326. Текст: /maid@ArarararagiBot
 Username: g1ts0. DateTime: 03.04.2022 14:23:14. ID сообщения: 7328. Текст: /maid@ArarararagiBot
+Username: g1ts0. DateTime: 17.04.2022 21:58:52. ID сообщения: 7330. Текст: Киря:3 ты нужен
+Username: g1ts0. DateTime: 17.04.2022 21:58:53. ID сообщения: 7331. Текст: зайди
+Username: g1ts0. DateTime: 17.04.2022 21:58:55. ID сообщения: 7332. Текст: иди сюда
+Username: g1ts0. DateTime: 17.04.2022 21:58:56. ID сообщения: 7333. Текст: киря
+Username: g1ts0. DateTime: 17.04.2022 21:58:57. ID сообщения: 7334. Текст: киря
+Username: g1ts0. DateTime: 17.04.2022 21:58:58. ID сообщения: 7335. Текст: киря
+Username: g1ts0. DateTime: 17.04.2022 21:58:58. ID сообщения: 7336. Текст: киря
+Username: g1ts0. DateTime: 17.04.2022 22:02:17. ID сообщения: 7337. Текст: 
+Username: . DateTime: 17.04.2022 22:02:26. ID сообщения: 7338. Текст: да
+Username: . DateTime: 17.04.2022 22:02:28. ID сообщения: 7339. Текст: я тут
+Username: g1ts0. DateTime: 17.04.2022 22:02:33. ID сообщения: 7340. Текст: так
+Username: g1ts0. DateTime: 17.04.2022 22:02:34. ID сообщения: 7341. Текст: киря
+Username: g1ts0. DateTime: 17.04.2022 22:02:40. ID сообщения: 7342. Текст: го в гс чат?
+Username: g1ts0. DateTime: 17.04.2022 22:02:50. ID сообщения: 7343. Текст: проще там обяъснить
+Username: . DateTime: 17.04.2022 22:03:03. ID сообщения: 7344. Текст: я очень занят
+Username: . DateTime: 17.04.2022 22:03:11. ID сообщения: 7345. Текст: 
+Username: g1ts0. DateTime: 17.04.2022 22:03:12. ID сообщения: 7346. Текст: нихерасе
+Username: g1ts0. DateTime: 17.04.2022 22:03:16. ID сообщения: 7347. Текст: такблеать
+Username: g1ts0. DateTime: 17.04.2022 22:03:19. ID сообщения: 7348. Текст: пошли в гс чат
+Username: . DateTime: 17.04.2022 22:03:20. ID сообщения: 7349. Текст: да го го)
+Username: . DateTime: 17.04.2022 22:03:29. ID сообщения: 7350. Текст: а как?
+Username: g1ts0. DateTime: 17.04.2022 22:03:33. ID сообщения: 7351. Текст: я ща создам
+Username: g1ts0. DateTime: 17.04.2022 22:03:34. ID сообщения: 7352. Текст: сек
+Username: g1ts0. DateTime: 17.04.2022 22:03:41. ID сообщения: 7353. Текст: 
+Username: g1ts0. DateTime: 17.04.2022 22:03:46. ID сообщения: 7354. Текст: ща
+Username: g1ts0. DateTime: 17.04.2022 22:04:27. ID сообщения: 7355. Текст: заходи
+Username: g1ts0. DateTime: 18.04.2022 16:21:06. ID сообщения: 7357. Текст: /weather@ArarararagiBot
+Username: g1ts0. DateTime: 18.04.2022 16:21:11. ID сообщения: 7359. Текст: Murmansk
