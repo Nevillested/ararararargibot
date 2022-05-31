@@ -33,3 +33,11 @@ Username: psychomorphoses. DateTime: 06.05.2022 19:00:19. ID сообщения:
 Username: psychomorphoses. DateTime: 06.05.2022 19:00:19. ID сообщения: 1594. Текст: /weather
 Username: psychomorphoses. DateTime: 06.05.2022 19:00:19. ID сообщения: 1595. Текст: /delete_space_blyat
 Username: psychomorphoses. DateTime: 06.05.2022 19:02:07. ID сообщения: 1612. Текст: /pikcha
+Username: psychomorphoses. DateTime: 20.05.2022 9:18:12. ID сообщения: 1836. Текст: /pikcha
+Username: psychomorphoses. DateTime: 20.05.2022 9:18:26. ID сообщения: 1839. Текст: /pikcha
+Username: psychomorphoses. DateTime: 20.05.2022 9:18:29. ID сообщения: 1842. Текст: /pikcha
+Username: psychomorphoses. DateTime: 20.05.2022 9:18:31. ID сообщения: 1845. Текст: /pikcha
+Username: psychomorphoses. DateTime: 20.05.2022 9:18:35. ID сообщения: 1848. Текст: /pikcha
+Username: psychomorphoses. DateTime: 20.05.2022 9:18:38. ID сообщения: 1851. Текст: /pikcha
+Username: psychomorphoses. DateTime: 20.05.2022 9:18:41. ID сообщения: 1854. Текст: /pikcha
+Username: psychomorphoses. DateTime: 20.05.2022 9:18:44. ID сообщения: 1857. Текст: /pikcha
