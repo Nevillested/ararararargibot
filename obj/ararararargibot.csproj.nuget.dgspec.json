@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj": {}
+    "D:\\GitHub\\ararararargibot\\ararararargibot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj": {
+    "D:\\GitHub\\ararararargibot\\ararararargibot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj",
+        "projectUniqueName": "D:\\GitHub\\ararararargibot\\ararararargibot.csproj",
         "projectName": "ararararargibot",
-        "projectPath": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj",
-        "packagesPath": "C:\\Users\\o.sidnev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\obj\\",
+        "projectPath": "D:\\GitHub\\ararararargibot\\ararararargibot.csproj",
+        "packagesPath": "C:\\Users\\i7700-k\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\ararararargibot\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\VS2017\\something_folder_two\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\o.sidnev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\i7700-k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +66,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.23, 3.1.23]"
+              "version": "[3.1.26, 3.1.26]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -78,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

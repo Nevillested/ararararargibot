@@ -62,3 +62,20 @@ C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\pt\Hangfire.Core
 C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\tr-TR\Hangfire.Core.resources.dll
 C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\zh-TW\Hangfire.Core.resources.dll
 C:\d\mvs projects\repos\ararararargibot\bin\Debug\netcoreapp3.1\zh\Hangfire.Core.resources.dll
+D:\GitHub\ararararargibot\bin\Debug\netcoreapp3.1\ararararargibot.exe
+D:\GitHub\ararararargibot\bin\Debug\netcoreapp3.1\ararararargibot.deps.json
+D:\GitHub\ararararargibot\bin\Debug\netcoreapp3.1\ararararargibot.runtimeconfig.json
+D:\GitHub\ararararargibot\bin\Debug\netcoreapp3.1\ararararargibot.runtimeconfig.dev.json
+D:\GitHub\ararararargibot\bin\Debug\netcoreapp3.1\ararararargibot.dll
+D:\GitHub\ararararargibot\bin\Debug\netcoreapp3.1\ararararargibot.pdb
+D:\GitHub\ararararargibot\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\GitHub\ararararargibot\bin\Debug\netcoreapp3.1\Telegram.Bot.dll
+D:\GitHub\ararararargibot\obj\Debug\netcoreapp3.1\ararararargibot.csproj.AssemblyReference.cache
+D:\GitHub\ararararargibot\obj\Debug\netcoreapp3.1\ararararargibot.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\ararararargibot\obj\Debug\netcoreapp3.1\ararararargibot.AssemblyInfoInputs.cache
+D:\GitHub\ararararargibot\obj\Debug\netcoreapp3.1\ararararargibot.AssemblyInfo.cs
+D:\GitHub\ararararargibot\obj\Debug\netcoreapp3.1\ararararargibot.csproj.CoreCompileInputs.cache
+D:\GitHub\ararararargibot\obj\Debug\netcoreapp3.1\ararararargibot.csproj.CopyComplete
+D:\GitHub\ararararargibot\obj\Debug\netcoreapp3.1\ararararargibot.dll
+D:\GitHub\ararararargibot\obj\Debug\netcoreapp3.1\ararararargibot.pdb
+D:\GitHub\ararararargibot\obj\Debug\netcoreapp3.1\ararararargibot.genruntimeconfig.cache
