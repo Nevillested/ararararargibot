@@ -4722,24 +4722,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\i7700-k\\.nuget\\packages\\": {},
-    "E:\\VS2017\\something_folder_two\\NuGetPackages": {}
+    "C:\\Users\\o.sidnev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\ararararargibot\\ararararargibot.csproj",
+      "projectUniqueName": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj",
       "projectName": "ararararargibot",
-      "projectPath": "D:\\GitHub\\ararararargibot\\ararararargibot.csproj",
-      "packagesPath": "C:\\Users\\i7700-k\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\ararararargibot\\obj\\",
+      "projectPath": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj",
+      "packagesPath": "C:\\Users\\o.sidnev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "E:\\VS2017\\something_folder_two\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\i7700-k\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\o.sidnev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4787,7 +4782,7 @@
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.26, 3.1.26]"
+            "version": "[3.1.23, 3.1.23]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
@@ -4803,7 +4798,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

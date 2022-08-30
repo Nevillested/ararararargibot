@@ -1,0 +1,21 @@
+01.01.0001 0:00:00
+@g1ts0 (1275894304)asd
+Response status code does not indicate success: 400 ().
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\o.sidnev\source\repos\ararararargibot\Program.cs:line 332
+System.Net.Http
+
+System.Collections.ListDictionaryInternal
+System.Net.Http.HttpResponseMessage EnsureSuccessStatusCode()
+
+-2146233088
+01.01.0001 0:00:00
+@psychomorphoses (377722814)Кек
+Object reference not set to an instance of an object.
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\o.sidnev\source\repos\ararararargibot\Program.cs:line 325
+ararararargibot
+
+System.Collections.ListDictionaryInternal
+Void MoveNext()
+
+-2147467261
