@@ -19,3 +19,25 @@ System.Collections.ListDictionaryInternal
 Void MoveNext()
 
 -2147467261
+1/1/0001 12:00:00 AM
+@g1ts0 (1275894304)/pikcha
+Bad Request: PHOTO_INVALID_DIMENSIONS
+   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\Ban\source\repos\ararararargibot\Program.cs:line 158
+Telegram.Bot
+
+System.Collections.ListDictionaryInternal
+Void MoveNext()
+
+-2146233088
+1/1/0001 12:00:00 AM
+@g1ts0 (1275894304)/pikcha
+Bad Request: PHOTO_INVALID_DIMENSIONS
+   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\Ban\source\repos\ararararargibot\Program.cs:line 158
+Telegram.Bot
+
+System.Collections.ListDictionaryInternal
+Void MoveNext()
+
+-2146233088

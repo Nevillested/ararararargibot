@@ -1,27 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj": {}
+    "C:\\Users\\Ban\\source\\repos\\ararararargibot\\ararararargibot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj": {
+    "C:\\Users\\Ban\\source\\repos\\ararararargibot\\ararararargibot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj",
+        "projectUniqueName": "C:\\Users\\Ban\\source\\repos\\ararararargibot\\ararararargibot.csproj",
         "projectName": "ararararargibot",
-        "projectPath": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\ararararargibot.csproj",
-        "packagesPath": "C:\\Users\\o.sidnev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\o.sidnev\\source\\repos\\ararararargibot\\obj\\",
+        "projectPath": "C:\\Users\\Ban\\source\\repos\\ararararargibot\\ararararargibot.csproj",
+        "packagesPath": "C:\\Users\\Ban\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ban\\source\\repos\\ararararargibot\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program data\\Program Files x86\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\o.sidnev\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ban\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Program data\\Program Files x86\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,7 +65,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.23, 3.1.23]"
+              "version": "[3.1.28, 3.1.28]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -78,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "D:\\Program data\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
