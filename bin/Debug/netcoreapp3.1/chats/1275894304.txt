@@ -2066,3 +2066,14 @@ Username: g1ts0. DateTime: 05.10.2022 12:15:27. ID сообщения: 6901. Т�
 Username: g1ts0. DateTime: 05.10.2022 12:15:29. ID сообщения: 6904. Текст: /pikcha
 Username: g1ts0. DateTime: 05.10.2022 12:15:32. ID сообщения: 6907. Текст: /pikcha
 Username: g1ts0. DateTime: 05.10.2022 12:15:34. ID сообщения: 6910. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 12:21:49 AM. ID сообщения: 6967. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 1:07:58 PM. ID сообщения: 6970. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 5:13:32 PM. ID сообщения: 6973. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 5:13:37 PM. ID сообщения: 6976. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 5:13:45 PM. ID сообщения: 6979. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 5:13:51 PM. ID сообщения: 6982. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 5:14:03 PM. ID сообщения: 6985. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 5:14:09 PM. ID сообщения: 6988. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 5:14:26 PM. ID сообщения: 6991. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 5:14:30 PM. ID сообщения: 6994. Текст: /pikcha
+Username: g1ts0. DateTime: 10/20/2022 5:14:37 PM. ID сообщения: 6997. Текст: /pikcha

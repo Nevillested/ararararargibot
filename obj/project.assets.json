@@ -4824,29 +4824,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ban\\.nuget\\packages\\": {},
-    "D:\\Program data\\Program Files x86\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Van\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ban\\source\\repos\\ararararargibot\\ararararargibot.csproj",
+      "projectUniqueName": "C:\\Users\\Van\\source\\repos\\ararararargibot\\ararararargibot.csproj",
       "projectName": "ararararargibot",
-      "projectPath": "C:\\Users\\Ban\\source\\repos\\ararararargibot\\ararararargibot.csproj",
-      "packagesPath": "C:\\Users\\Ban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ban\\source\\repos\\ararararargibot\\obj\\",
+      "projectPath": "C:\\Users\\Van\\source\\repos\\ararararargibot\\ararararargibot.csproj",
+      "packagesPath": "C:\\Users\\Van\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Van\\source\\repos\\ararararargibot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program data\\Program Files x86\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ban\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "D:\\Program data\\Program Files x86\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        "C:\\Users\\Van\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4904,7 +4906,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "D:\\Program data\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
