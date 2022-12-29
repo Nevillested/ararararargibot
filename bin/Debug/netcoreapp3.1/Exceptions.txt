@@ -74,3 +74,116 @@ System.Collections.ListDictionaryInternal
 Void MoveNext()
 
 -2146233088
+1/1/0001 12:00:00 AM
+@g1ts0 (1275894304)/send_all
+Bad Request: message text is empty
+   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\Van\source\repos\ararararargibot\Program.cs:line 308
+Telegram.Bot
+
+System.Collections.ListDictionaryInternal
+Void MoveNext()
+
+-2146233088
+1/1/0001 12:00:00 AM
+@singular_0 (83729683)/maid
+Error while copying content to a stream.
+   at System.Net.Http.HttpContent.CopyToAsyncCore(ValueTask copyTask)
+   at System.Net.Http.MultipartContent.SerializeToStreamAsyncCore(Stream stream, TransportContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.CopyToAsyncCore(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\Van\source\repos\ararararargibot\Program.cs:line 285
+System.Net.Http
+System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteAsync|210_1[TWriteAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TWriteAdapter](TWriteAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TWriteAdapter](TWriteAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Net.Http.HttpConnection.WriteAsync(ReadOnlyMemory`1 source)
+   at System.IO.Stream.CopyToAsyncInternal(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.CopyToAsyncCore(ValueTask copyTask)
+System.Collections.ListDictionaryInternal
+Void MoveNext()
+
+-2146232800
+1/1/0001 12:00:00 AM
+@singular_0 (83729683)moscow
+The operation was canceled.
+   at System.Net.Http.HttpConnection.ChunkedEncodingReadStream.CopyToAsyncCore(Stream destination, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionResponseContent.SerializeToStreamAsync(Stream stream, TransportContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.LoadIntoBufferAsyncCore(Task serializeToStreamTask, MemoryStream tempBuffer)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\Van\source\repos\ararararargibot\Program.cs:line 335
+System.Net.Http
+System.IO.IOException: Unable to read data from the transport connection: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения..
+ ---> System.Net.Sockets.SocketException (995): Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.FillAsync()
+   at System.Net.Http.HttpConnection.ChunkedEncodingReadStream.CopyToAsyncCore(Stream destination, CancellationToken cancellationToken)
+System.Collections.ListDictionaryInternal
+Void MoveNext()
+
+-2146233029
+1/1/0001 12:00:00 AM
+@singular_0 (83729683)/pikcha
+Error while copying content to a stream.
+   at System.Net.Http.HttpContent.CopyToAsyncCore(ValueTask copyTask)
+   at System.Net.Http.MultipartContent.SerializeToStreamAsyncCore(Stream stream, TransportContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.CopyToAsyncCore(ValueTask copyTask)
+   at System.Net.Http.HttpConnection.SendRequestContentAsync(HttpRequestMessage request, HttpContentWriteStream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\Van\source\repos\ararararargibot\Program.cs:line 162
+System.Net.Http
+System.IO.IOException: Unable to read data from the transport connection: Удаленный хост принудительно разорвал существующее подключение..
+ ---> System.Net.Sockets.SocketException (10054): Удаленный хост принудительно разорвал существующее подключение.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteAsync|210_1[TWriteAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncChunked[TWriteAdapter](TWriteAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TWriteAdapter](TWriteAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Net.Http.HttpConnection.WriteAsync(ReadOnlyMemory`1 source)
+   at System.IO.Stream.CopyToAsyncInternal(Stream destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at System.Net.Http.HttpContent.CopyToAsyncCore(ValueTask copyTask)
+System.Collections.ListDictionaryInternal
+Void MoveNext()
+
+-2146232800
+1/1/0001 12:00:00 AM
+@singular_0 (83729683)/pikcha
+Bad Request: PHOTO_INVALID_DIMENSIONS
+   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\Van\source\repos\ararararargibot\Program.cs:line 162
+Telegram.Bot
+
+System.Collections.ListDictionaryInternal
+Void MoveNext()
+
+-2146233088
+1/1/0001 12:00:00 AM
+@singular_0 (83729683)/pikcha
+Bad Request: PHOTO_INVALID_DIMENSIONS
+   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at ararararargibot.Program.OnMessageHandler(Object sender, MessageEventArgs e) in C:\Users\Van\source\repos\ararararargibot\Program.cs:line 177
+Telegram.Bot
+
+System.Collections.ListDictionaryInternal
+Void MoveNext()
+
+-2146233088
