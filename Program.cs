@@ -1,59 +1,44 @@
-﻿using System;
-using Telegram.Bot;
-using Telegram.Bot.Args;
+﻿using Telegram.Bot;
+using Telegram.Bot.Types.Enums;
+using System.Threading.Tasks;
+using System.Threading;
+using System;
+using Telegram.Bot.Polling;
+using Telegram.Bot.Types;
+using System.Reflection;
 
 namespace ararararargibot
 {
-    public static class Program
+    class Program
     {
-        private static string token { get; set; } = "2024376867:AAEwo60MQbbuvTAFMxCC_orH1t7Xyduj5So";
-        public  static TelegramBotClient client;
-        public  static DateTime Now { get; }
-        
-        //основной работающий метод
-        static void Main(string[] args)
+        public static ITelegramBotClient bot = new TelegramBotClient("2024376867:AAEwo60MQbbuvTAFMxCC_orH1t7Xyduj5So");
+
+        public static async Task HandleUpdateAsync(ITelegramBotClient botClient, Telegram.Bot.Types.Update cur_event, CancellationToken cancellationToken)
         {
-            try
-            {
-                client = new TelegramBotClient(token);
-                client.StartReceiving();
-                client.OnMessage += OnMessageHandler;
-                client.OnMessageEdited += OnMessageEdit;
-                Console.ReadLine();
-                client.StopReceiving();
-            }
-            catch (Exception ex)
-            {
-                //пишем ошибки
-                queries_to_bd.insert_story("null", "null", -1, -1, ex);
-            }
+            income_event.income(cur_event);
         }
 
-        //действия на все прилетающие сообщения
-        private static async void OnMessageHandler(object sender, MessageEventArgs e)
+        public static async Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
         {
-            //пересылка всех входящих сообщений только мне
-            resend_to_owner.sending(e);
-
-            try
-            {
-                //условия отправки ответов и сама отправка на прилетевшее текстовое сообщение
-                text_cases.send_answer_for_cur_text(e);
-
-                //триггеры на реплайные сообщения
-                reply_triggers.send_answer_for_reply(e);
-            }
-            catch (Exception ex)
-            {
-                //пишем ошибки
-                queries_to_bd.insert_story(e.Message.Text, e.Message.From.Username, e.Message.MessageId, e.Message.Chat.Id, ex);
-            }
+            Console.WriteLine("Ошибка в " + MethodBase.GetCurrentMethod().Name);
+            queries_to_bd.insert_error(1, null, exception);
         }
 
-        //действия на редактированные сообщения
-        private static async void OnMessageEdit(object sender, MessageEventArgs e)
+        static void Main()
         {
-            edit_msg.send_answer_for_edit_msg(e);
+            var cts = new CancellationTokenSource();
+            var cancellationToken = cts.Token;
+            var receiverOptions = new ReceiverOptions
+            {
+                AllowedUpdates = { }, // receive all cur_event types
+            };
+            bot.StartReceiving(
+                HandleUpdateAsync,
+                HandleErrorAsync,
+                receiverOptions,
+                cancellationToken
+            );
+            Console.ReadLine();
         }
     }
 }
