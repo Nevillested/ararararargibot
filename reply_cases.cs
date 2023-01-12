@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Reflection;
 using Telegram.Bot;
-using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
 namespace ararararargibot
@@ -56,7 +55,7 @@ namespace ararararargibot
                         //отдача результата
                         await Program.bot.SendTextMessageAsync(msg.Chat.Id, "Расшифрованный текст:\r\n" + cezar.decrypt(msg.Chat.Id), replyToMessageId: msg.MessageId);
                     }
-                }
+                }   
 
                 //триггер на поиск слова в словаре
                 if (msg.ReplyToMessage.Text.Contains("Поищем что есть в словаре похожее."))

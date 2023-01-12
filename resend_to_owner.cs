@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.InputFiles;
-using File = System.IO.File;
 using Telegram.Bot;
 using System;
 using System.Reflection;

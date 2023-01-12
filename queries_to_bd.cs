@@ -1,10 +1,6 @@
 ﻿using System;
 using Oracle.ManagedDataAccess.Client;
 using System.Data;
-using System.Drawing;
-using System.Data.OracleClient;
-using System.Collections.Concurrent;
-using Telegram.Bot.Types;
 using System.Reflection;
 
 namespace ararararargibot
@@ -271,6 +267,46 @@ namespace ararararargibot
                     con.Item2.Dispose();
                 }
 
+                return result;
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine("Ошибка в " + MethodBase.GetCurrentMethod().Name);
+                queries_to_bd.insert_error(1, null, exception);
+                return null;
+            }
+        }
+
+        //выдача ответа на сообщение, если нет подходящих триггеров в text_cases
+        public static string get_other_answer(string user_text)
+        {
+            try
+            {
+                var con = new_conection();
+
+                con.Item1.CommandText = "with t1 as ( "
+                                       + "select answer "
+                                       + "  from(select answer, "
+                                       + "                UTL_MATCH.edit_distance_similarity(lower(question), lower(:1)) as match_procent "
+                                       + "           from other_bot_answers "
+                                       + "           order by dbms_random.value "
+                                       + "       ) "
+                                       + " where match_procent >= 85 "
+                                       + "   and rownum = 1 "
+                                       + ") "
+                                       + "select case "
+                                       + "         when EXISTS(select answer from t1) "
+                                       + "           then (select answer from t1) "
+                                       + "         else 'моя твоя не понимать, сори' "
+                                       + "       end as answer_to_client "
+                                       + "  from dual ";
+
+                con.Item1.Parameters.Add(new OracleParameter("1", OracleDbType.Varchar2, user_text, ParameterDirection.Input));
+                OracleDataReader dr = con.Item1.ExecuteReader();
+                dr.Read();
+                string result = dr.GetString(0);
+                con.Item1.ExecuteNonQuery();
+                con.Item2.Dispose();
                 return result;
             }
             catch (Exception exception)

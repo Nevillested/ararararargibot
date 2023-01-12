@@ -1,9 +1,7 @@
 ﻿using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Data;
-using System.Drawing;
 using System.Reflection;
-using Telegram.Bot.Types;
 
 namespace ararararargibot
 {

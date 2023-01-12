@@ -1,10 +1,8 @@
 ﻿using Telegram.Bot;
-using Telegram.Bot.Types.Enums;
 using System.Threading.Tasks;
 using System.Threading;
 using System;
 using Telegram.Bot.Polling;
-using Telegram.Bot.Types;
 using System.Reflection;
 
 namespace ararararargibot

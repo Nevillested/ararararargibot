@@ -2,9 +2,6 @@
 using Telegram.Bot;
 using System.IO;
 using Telegram.Bot.Types.ReplyMarkups;
-using Telegram.Bot.Types;
-using Microsoft.VisualBasic;
-using Telegram.Bot.Types.Enums;
 using System.Reflection;
 
 namespace ararararargibot
@@ -124,6 +121,22 @@ namespace ararararargibot
                     else if (msg.Text == "/get_kanji")
                     {
                         await Program.bot.SendTextMessageAsync(msg.Chat.Id, "Какой номер десятка кандзи?", replyMarkup: new ForceReplyMarkup());
+                    }
+                    else
+                    {
+                        char[] alphbet_rus = " абвгдеёжзийклмнопрстуфхцчшщъыьэюя".ToCharArray();
+                        string clean_msg = "";
+                        for (int i = 0; i < msg_text.Length; i++)
+                        {
+                            for (int j = 0; j < alphbet_rus.Length; j++)
+                            {
+                                if (msg_text[i] == alphbet_rus[j])
+                                {
+                                    clean_msg += alphbet_rus[j];
+                                }
+                            }
+                        }
+                        await Program.bot.SendTextMessageAsync(msg.Chat.Id, queries_to_bd.get_other_answer(clean_msg));
                     }
                 }
             }
